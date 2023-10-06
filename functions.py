@@ -26,10 +26,12 @@ def calculate_salary(workdays, hourly_wage, daily_workhours):
     salary = workdays * hourly_wage * daily_workhours
     return salary
 
-bubus_salary = calculate_salary(20, 2500, 4)
-tasis_salary = calculate_salary(21, 10750, 8)
-total_salary = bubus_salary + tasis_salary
+def print_salary(name, salary):
+    print(f"{name}'s salary in this month is {salary}HUF")
 
-print(f"Bubu's salary in this month is {bubus_salary}HUF")
-print(f"Tasi's salary in this month is {tasis_salary}HUF")
-print(f"total salary:{total_salary}")
+bubus_salary = calculate_salary(20, 2500, 4)
+print_salary("Bubu", bubus_salary)
+
+tasis_salary = calculate_salary(21, 10750, 8)
+print_salary("Tasi", tasis_salary)
+
