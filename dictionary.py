@@ -1,38 +1,30 @@
-person = {
+people = [
+{
   "first_name": "Blanka",
   "last_name": "Szigethy",
   "age": 20,
-  "programming_skill": True
-}
-
-person2 = {
+  "programming_skill": True,
+},
+{
   "first_name": "Dóra",
   "last_name": "Pekk-Juhász",
   "age": 28,
-  "programming_skill": False
-}
-
-person3 = {
+  "programming_skill": False,
+},
+{
   "first_name": "Zsolt",
   "last_name": "Tasnádi",
   "age": 36,
-  "programming_skill": True
+  "programming_skill": True,
   }
+]
 
-first_name = person["first_name"]
-last_name = person["last_name"]
-age = person["age"]
+i = 0
+while(i < len(people)):
+  person = people[i]
+  first_name = people[i]["first_name"]
+  last_name = person["last_name"]
+  age = person["age"]
+  print(f"{first_name} {last_name}'s age is {age}")
+  i = i + 1 # or i++
 
-print(f"{first_name} {last_name}'s age is {age}")
-
-first_name = person2["first_name"]
-last_name = person2["last_name"]
-age = person2["age"]
-
-print(f"{first_name} {last_name}'s age is {age}")
-
-first_name = person3["first_name"]
-last_name = person3["last_name"]
-age = person3["age"]
-
-print(f"{first_name} {last_name}'s age is {age}")
