@@ -22,6 +22,7 @@ Alcoholic: Yes
 ```
 
 - Az egyes sorok legyenek küldön print-ek, string interpolációval behelyezve a COCTAILS i-edik elemének adott kulcsaihoz tartozó értékeket.
+- A komponensek kiírása szintén egy while ciklussal történik (a koktélok kiírását végző while cikluson belül)
 - Az Alcoholic kiírásához egy if-re lesz szükséged, ami a COCTAILS i-edik elemének alcoholic kulcsának értéke szerint írja ki, van-e alkohol tartalma az italnak, vagy sem.
 - Hívd meg a main függvényben a print_coctails függvényt.
 - GIT-eld el a coctailmaker.py-t "add coctailmaker.py" commit message-dzsel és push-old fel a github-ra.
