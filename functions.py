@@ -35,3 +35,12 @@ print_salary("Bubu", bubus_salary)
 tasis_salary = calculate_salary(21, 10750, 8)
 print_salary("Tasi", tasis_salary)
 
+
+def unexpected_return():
+    i = 1
+    print("Start")
+    if (i > 2):
+        return
+    print("Stop")
+
+unexpected_return()
