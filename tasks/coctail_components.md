@@ -3,7 +3,7 @@
 ## I. Terminal feladatok
 - Hozz létre egy coctail mappát a lokális repository-nkon belül (mkdir)
 - Helyezd át a coctailmaker.py -t ebbe a mappába (mv)
-- GIT-eld el a változtatásokat (git add, git commit, git pudh)
+- GIT-eld el a változtatásokat (git add, git commit, git push)
 
 ## II. Tömb iterációs feladatok
 
