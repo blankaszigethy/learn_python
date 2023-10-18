@@ -1,8 +1,13 @@
-a=4
-b=7
+a = 4
+b = 7
 
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
+sum = a + b
+sub = a - b
+mult = a * b
+div = a / b
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
 
