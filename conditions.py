@@ -1,7 +1,9 @@
-a=4
-b=4
+a = 4
+b = 4
 
-if a==b:
-    print("it was true")
+if a == b:
+    print("a equivalents with b")
+elif a > b:
+    print("a larger than b")    
 else:
-    print("it was false")
+    print("b larger than a")
